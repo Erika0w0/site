@@ -24,7 +24,6 @@
         .titulo{
             background-color: rgb(236, 166, 240);
             height: 80px;
-            display: flex;
             align-items: center;
         }
 
@@ -32,8 +31,9 @@
 
         .topoesquerda{
             background-color: aquamarine;
-            height: 70%;
+            height: 100%;
             width: 40%;
+            float: left;
 
         }
 
@@ -46,14 +46,65 @@
 
         .topodireita{
             background-color: blueviolet;
-            height: 70%;
+            height: 100%;
             width: 50%;
+            float: right;
+        }
+        .coracao{
+            height: 100%;
+            width: 50%;
+            background-color: pink;
+        }
+        .mensagem{
+
         }
         /*Separação*/
         .storyes{
             background-color: rgb(43, 226, 189);
             height: 110px;
             width: 100%; 
+            display: flex;
+           
+        }
+        .st1{
+            background-color: rgb(156, 13, 113);
+            height: 100px;
+            width: 100px; 
+            border-radius:100%;
+            margin-left: 50px;
+            margin-top: 5px;
+        }
+        .st2{
+            background-color: rgb(156, 13, 113);
+            height: 100px;
+            width: 100px; 
+            border-radius:100%;
+            margin-left: 50px;
+            margin-top: 5px;
+        }
+        .st3{
+            background-color: rgb(156, 13, 113);
+            height: 100px;
+            width: 100px; 
+            border-radius:100%;
+            margin-left: 50px;
+            margin-top: 5px;
+        }
+        .st4{
+            background-color: rgb(156, 13, 113);
+            height: 100px;
+            width: 100px; 
+            border-radius:100%;
+            margin-left: 50px;
+            margin-top: 5px;
+        }
+        .st5{
+            background-color: rgb(156, 13, 113);
+            height: 100px;
+            width: 100px; 
+            border-radius:100%;
+            margin-left: 50px;
+            margin-top: 5px;
         }
         .main{
             width: 100px;
@@ -77,30 +128,50 @@
             height: 30%;
             width: 100%;
         }
-        .pe{
-            background-color: rgb(122, 172, 162);
-            height: 100px;
-            width: 100%; 
+        .comen{
+            width: 70%;
+            color: aliceblue;
+            margin-left: 100px;
         }
+        
         .perfil{
             background-color: rgb(207, 216, 215);
             height: 10%;
             width: 100%;
+            display: flex;
+            
         }
         .fotoperfil{
             background-color: rgb(132, 6, 46);
             height: 100%;
             width: 20%;
         }
+        .fotinha{
+            background-color: rgb(13, 18, 156);
+            height: 50px;
+            width: 50px; 
+            border-radius:100%;
+            margin-left: 50px;
+        }
         .nomeperfil{
             background-color: rgb(216, 70, 99);
             height: 100%;
-            width: 20%;
+            width: 60%;
+        }
+        .myname{
+            text-align: left;
+            margin-left: 10PX;
+            margin-top: 15PX;
+            font-size: large;
         }
         .mais{
             background-color: rgb(164, 183, 174);
             height: 100%;
             width: 20%;
+        }
+        .maisbotao{
+            text-align: center;
+            margin: 20px;
         }
         .img{
             background-color: rgb(181, 49, 178);
@@ -112,7 +183,84 @@
             background-color: rgb(207, 216, 215);
             height: 10%;
             width: 100%;
+            display: flex;
 
+        }
+        .botoesinteracao{
+            display: flex;
+        }
+
+        .bb1{
+            background-color: rgb(13, 18, 156);
+            height: 50px;
+            width: 50px; 
+            border-radius:100%;
+            margin-left: 50px;
+        }
+        .bb2{
+            background-color: rgb(13, 18, 156);
+            height: 50px;
+            width: 50px; 
+            border-radius:100%;
+            margin-left: 50px;
+        }
+        .bb3{
+            background-color: rgb(13, 18, 156);
+            height: 50px;
+            width: 50px; 
+            border-radius:100%;
+            margin-left: 50px;
+        }
+        .salvar{
+            background-color: rgb(156, 13, 13);
+            height: 50px;
+            width: 50px;    
+            border-radius:100%;
+            margin-left: 400px;
+            float: right;
+        }
+
+        /*-----------Seração do Pé---------------*/
+        .pe{
+            background-color: rgb(122, 172, 162);
+            height: 100px;
+            width: 100%; 
+            display: flex;
+        }
+        .iconp1{
+            background-color: #ecf018;
+            width: 70px;
+            height: 70px;
+            margin-left: 45px;
+            margin-top: 10px;
+        }
+        .iconp2{
+            background-color: #ecf018;
+            width: 70px;
+            height: 70px;
+            margin-left: 90px;
+            margin-top: 10px;
+        }
+        .iconp3{
+            background-color: #ecf018;
+            width: 70px;
+            height: 70px;
+            margin-left: 90px;
+            margin-top: 10px;
+        }
+        .iconp4{
+            background-color: #ecf018;
+            width: 70px;
+            height: 70px;
+            margin-left: 90px;
+            margin-top: 10px;
+        }
+        .iconp5{
+            background-color: #ecf018;
+            width: 70px;
+            height: 70px;
+            margin-left: 90px;
+            margin-top: 10px;
         }
 
     </style>
@@ -122,6 +270,7 @@
         <div class="site">
 
         <header>
+<!---------------Aqui gerenciamos a cabeça do site---------------------------->
 
             <div class="titulo">
 
@@ -129,35 +278,69 @@
                     <div class="instagram"><h2>Instagram</h2></div>
                 </div>
 
-                <div class="topodireita"></div>
+                <div class="topodireita">
+                    <div class="coracao"></div>
+                    <div class="mensagem"></div>
+                </div>
 
             </div>   
 
             <div class="segunda">
-                <div class="storyes">aqui e os storyes</div>
+                <div class="storyes">
+                    <div class="st1"></div>
+                    <div class="st2"></div>
+                    <div class="st3"></div>
+                    <div class="st4"></div>
+                    <div class="st5"></div>
+
+                </div>
 
             </div>         
 
         </header>
 
-
+<!---------------Aqui gerenciamos o post---------------------------->
         <main>
             <div class="meio">
-                <!--Aqui gerenciamos o post-->
+                
                 <div class="post">
 
                     <div class="perfil">
-                        <div class="fotoperfil">FOTOperfil</div>
-                        <div class="nomeperfil">nomeperfil</div>
-                        <div class="mais">...</div>
+
+                        <div class="fotoperfil">
+                            <div class="fotinha"></div>
+                        </div>
+
+                        <div class="nomeperfil">
+                            <div class="myname">Joséfina8905</div>
+                        </div>
+                        <div class="mais">
+                            <div class="maisbotao"><h2>...</h2></div>
+                        </div>
 
                     </div>
 
                     <div class="img"> </div>
-                    <div class="reacoes"></div>
+                    
+                    <div class="reacoes">
+                        <div class="botoesinteracao">
+                            
+                            <div class="bb1"></div>
+                            <div class="bb2"></div>
+                            <div class="bb3"></div>
+                            
+                        </div>
+
+                        <div class="salvar"></div>
+
+                    </div>
                     
                 </div>
-                <div class="comentario">aaaaaaaaaaaaaaaaaa</div>
+                <div class="comentario">
+                    <div class="comen"> A Solanum tuberosum, comumente conhecida como batata[1], é uma planta perene da família das solanáceas e pertencente ao tipo fisionómico dos terófitos.[2] A planta adulta, conhecida como batateira, tem geralmente entre sessenta a cem centímetros de altura, possui flores e frutos e produz um tubérculo comestível rico em amido.[2]
+
+                        A espécie teve origem na Cordilheira dos Andes, próximo ao Lago Titicaca, e foi levada a outras regiões do mundo por colonizadores europeus. Atualmente são cultivadas milhares de variedades da espécie em todos os continentes e está inserida como um alimento fundamental na cultura mundial. A relação da batata com a batata-doce é bem pequena porque os vegetais não compartilham do mesmo gênero ou família, fazendo parte apenas da mesma ordem.</div>
+                </div>
 
 
             </div>
@@ -166,7 +349,15 @@
 
 
         <footer>
-            <div class="pe"></div>
+            <div class="pe">
+
+                <div class="iconp1"></div>
+                <div class="iconp2"></div>
+                <div class="iconp3"></div>
+                <div class="iconp4"></div>
+                <div class="iconp5"></div>
+
+            </div>
 
         </footer>
 
