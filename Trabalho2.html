@@ -49,6 +49,7 @@
             height: 100%;
             width: 50%;
             float: right;
+            display: flex;
         }
         .coracao{
             height: 100%;
@@ -56,7 +57,17 @@
             background-color: pink;
         }
         .mensagem{
+            height: 100%;
+            width: 50%;
+            background-color: rgb(205, 169, 116);
 
+        }
+        .iconcima{
+            float: right;
+            background-color: aliceblue;
+            height: 100%;
+            width: 45%;
+            border-radius:100%;
         }
         /*Separação*/
         .storyes{
@@ -174,7 +185,8 @@
             margin: 20px;
         }
         .img{
-            background-color: rgb(181, 49, 178);
+            --background-color: rgb(181, 49, 178);
+            background-image: url(potato.png);
             height: 80%;
             width: 100%;
 
@@ -279,8 +291,13 @@
                 </div>
 
                 <div class="topodireita">
-                    <div class="coracao"></div>
-                    <div class="mensagem"></div>
+                    <div class="coracao">
+                        <div class="iconcima"></div>
+                    </div>
+                    <div class="mensagem">
+                        <div class="iconcima"></div>
+
+                    </div>
                 </div>
 
             </div>   
