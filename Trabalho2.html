@@ -12,7 +12,7 @@
     <style>
 
         .site{
-            width: 800px;
+            width: 1000px;
             height: 2000px;
             display: inline-block;
         }
@@ -59,16 +59,36 @@
         .mensagem{
             height: 100%;
             width: 50%;
-            background-color: rgb(205, 169, 116);
+            background-color: rgb(116, 183, 205);
 
         }
-        .iconcima{
+        .iconcima1{
             float: right;
-            background-color: aliceblue;
+            --background-image: url(coracao1.png);
+            background-size: cover;
+            height: 100%;
+            width: 100%;
+            border-left:  transparent;
+            
+        }
+
+        .iconcima2{
+            float: right;
+            --background-color: aliceblue;
+            background-image: url(chat.png);
+            background-size: cover;
             height: 100%;
             width: 45%;
             border-left:  transparent;
             
+        }
+        
+        .colacao{
+            background-image: url(coracao3.png);
+            background-size: cover;
+            height: 70px;
+            width: 70px;
+            margin-left: 180px;
         }
         /*Separação*/
         .storyes{
@@ -79,7 +99,9 @@
            
         }
         .st1{
-            background-color: rgb(156, 13, 113);
+            --background-color: rgb(156, 13, 113);
+            background-image: url(perfil2.png);
+            background-size: cover;
             height: 100px;
             width: 100px; 
             border-radius:100%;
@@ -87,7 +109,9 @@
             margin-top: 5px;
         }
         .st2{
-            background-color: rgb(156, 13, 113);
+            --background-color: rgb(156, 13, 113);
+            background-image: url(perfil3.png);
+            background-size: cover;
             height: 100px;
             width: 100px; 
             border-radius:100%;
@@ -95,7 +119,9 @@
             margin-top: 5px;
         }
         .st3{
-            background-color: rgb(156, 13, 113);
+            --background-color: rgb(156, 13, 113);
+            background-image: url(perfil4.png);
+            background-size: cover;
             height: 100px;
             width: 100px; 
             border-radius:100%;
@@ -103,7 +129,9 @@
             margin-top: 5px;
         }
         .st4{
-            background-color: rgb(156, 13, 113);
+            --background-color: rgb(156, 13, 113);
+            background-image: url(perfil.png);
+            background-size: cover;
             height: 100px;
             width: 100px; 
             border-radius:100%;
@@ -111,7 +139,20 @@
             margin-top: 5px;
         }
         .st5{
-            background-color: rgb(156, 13, 113);
+            --background-color: rgb(156, 13, 113);
+            background-image: url(perfil5.png);
+            background-size: cover;
+            height: 100px;
+            width: 100px; 
+            border-radius:100%;
+            margin-left: 50px;
+            margin-top: 5px;
+        }
+
+        .st6{
+            --background-color: rgb(156, 13, 113);
+            background-image: url(perfil6.png);
+            background-size: cover;
             height: 100px;
             width: 100px; 
             border-radius:100%;
@@ -154,12 +195,15 @@
             
         }
         .fotoperfil{
-            background-color: rgb(132, 6, 46);
+            background-color: rgb(73, 132, 6);
             height: 100%;
             width: 20%;
+            
         }
         .fotinha{
-            background-color: rgb(13, 18, 156);
+            --background-color: rgb(13, 18, 156);
+            background-image: url(perfil.png);
+            background-size: cover;
             height: 50px;
             width: 50px; 
             border-radius:100%;
@@ -169,6 +213,9 @@
             background-color: rgb(216, 70, 99);
             height: 100%;
             width: 60%;
+            font-size: 13px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
         }
         .myname{
             text-align: left;
@@ -204,21 +251,27 @@
         }
 
         .bb1{
-            background-color: rgb(13, 18, 156);
+            --background-color: rgb(13, 18, 156);
+            background-image: url(coracao3.png);
+            background-size: cover;
             height: 50px;
             width: 50px; 
             border-radius:100%;
             margin-left: 50px;
         }
         .bb2{
-            background-color: rgb(13, 18, 156);
+            --background-color: rgb(13, 18, 156);
+            background-image: url(chat2.png);
+            background-size: cover;
             height: 50px;
             width: 50px; 
             border-radius:100%;
             margin-left: 50px;
         }
         .bb3{
-            background-color: rgb(13, 18, 156);
+            --background-color: rgb(13, 18, 156);
+            background-image: url(enviar.png);
+            background-size: cover;
             height: 50px;
             width: 50px; 
             border-radius:100%;
@@ -293,10 +346,13 @@
 
                 <div class="topodireita">
                     <div class="coracao">
-                        <div class="iconcima"></div>
+                        <div class="iconcima1">
+                            <div class="colacao"></div>
+                        </div>
                     </div>
                     <div class="mensagem">
-                        <div class="iconcima"></div>
+                        <div class="iconcima2">
+                        </div>
 
                     </div>
                 </div>
@@ -310,7 +366,7 @@
                     <div class="st3"></div>
                     <div class="st4"></div>
                     <div class="st5"></div>
-
+                    <div class="st6"></div>
                 </div>
 
             </div>         
